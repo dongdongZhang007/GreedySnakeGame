@@ -1,0 +1,24 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-11-05 12:10:33
+ * @LastEditTime: 2021-11-05 12:30:04
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \GreadySnake\index.html
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="map" style="width: 80%;height: 400px; border: 1px solid orange;">
+        </div>
+        <script type="module">
+            import Game from './Game.js'
+            let map = document.getElementById('map');
+            let game = new Game();
+            game.start();
+        </script>
+    </body>
+</html>
